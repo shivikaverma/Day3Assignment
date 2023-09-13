@@ -1,0 +1,26 @@
+package assignmentthree;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class Set1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashSet<String> city = new HashSet<String>();
+        
+		city.add("Bhubaneswar");
+		city.add("Bangalore");
+		city.add("Mumbai");
+		city.add("Kolkata");
+		city.add("Chennai");
+		city.add("Pune");
+		city.add("Pune");
+		city.add("Ahemdabad");
+		city.add("Raipur");
+		city.add("Raipur");
+		
+		Iterator<String> c = city.iterator();
+		  while (c.hasNext()) {
+			   System.out.println(c.next());
+	}
